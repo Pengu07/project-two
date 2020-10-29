@@ -39,3 +39,8 @@ h4{
   font-weight:600;
   line-height:1.25em; /* 25 / 20 */
 }
+
+p{
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
