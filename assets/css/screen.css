@@ -48,4 +48,18 @@ p{
 figcaption{
   padding-top: 10px;
 }
+
+/* Grid Customization */
+body{
+  display: grid;
+  grid-template-columns: minmax(0.625em,1fr) minmax(5ch,80ch) minmax(0.625em,1fr)
+}
+
+header,
+main,
+footer{
+  grid-column: 2 / 3
+}
+
+
 /* Responsive Images */
