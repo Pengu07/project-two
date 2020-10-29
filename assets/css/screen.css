@@ -71,6 +71,6 @@ footer{
 
 img{
   display: block;
-  border: 3px solid #2d8ceb;
+  /* border: 3px solid #2d8ceb; Blue border on image looks good, however it goes over the column border. Perhaps add border externally via image editor? */
   max-width: 100%;
 }
