@@ -44,4 +44,8 @@ p{
   padding-top: 18px;
   padding-bottom: 18px;
 }
+
+figcaption{
+  padding-top: 10px;
+}
 /* Responsive Images */
