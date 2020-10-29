@@ -63,3 +63,9 @@ footer{
 
 
 /* Responsive Images */
+
+img{
+  display: block;
+  border: 3px solid #2d8ceb;
+  max-width: 100%;
+}
