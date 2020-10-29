@@ -67,6 +67,17 @@ footer{
   grid-column: 2 / 3
 }
 
+/* Navigation Buttons */
+
+.nav a {
+  text-decoration: none;
+  background: #2d8ceb;
+  color: #e6e6e6;
+}
+
+.nav a:hover {
+  background: #1d5b99;
+}
 
 /* Responsive Images */
 
