@@ -61,6 +61,7 @@ body{
 }
 
 header,
+nav,
 main,
 footer{
   grid-column: 2 / 3
