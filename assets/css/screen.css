@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+@import url('//#basehold.it/25');
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+/* Used 20px as base size https://www.modularscale.com/?20&px&1.25 with a major third ratio */
+html{
+  font-family: 'Literata', Georgia, 'Times New Roman', Times, Roman, serif;
+  font-size: 1.25em; /* 20 / 16 = 1.25 */
+  line-height:1.25em; /* 25 / 20 = 1.25 */
+  padding: 1.25em 0.625em 1.25em 0.625em; /* T R B L */
+}
+h1{
+  font-size: 1.95315em; /* 39.063 / 20 */
+  line-height: 1.119985664em; /* 43.75 / 39.063 */
+  padding-bottom: 0.639991808em; /* 25 / 39.063 */
+}
+h2 {
+  font-size: 1.5625em; /* 31.25 / 20 */
+  line-height: 1em; /* 31.25 / 31.25 */
+  font-weight: 600;
+  padding-top: 0.8em; /* 25 / 31.25 */
+}
+h3{
+  font-size:1.25em; /* 25 / 20 */
+  font-style: italic;
+  line-height: 1em; /* 25 / 25 */
+}
+h4{
+  font-weight:600;
+  line-height:1.25em; /* 25 / 20 */
+}
