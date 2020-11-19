@@ -60,6 +60,12 @@ figcaption{
   text-align: center;
 }
 
+a{
+  color: #e6e6e6;
+}
+a:visited{
+  color: #2d8ceb;
+}
 /* Responsive Images */
 
 img{
