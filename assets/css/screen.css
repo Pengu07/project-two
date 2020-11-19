@@ -135,6 +135,32 @@ footer{
     padding-left: 10px;
     padding-right: 0px;
   }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav li{
+    padding: 0px;
+    width: 30vw;
+    margin: 4px;
+    flex: 1 auto;
+  }
+
+  .nav a{
+    padding:8px;
+  }
+
+  .nav li:first-of-type{
+  margin-left: 0;
+  }
+
+  .nav li:last-of-type {
+  margin-right: 0;
+  }
+
 }
 
 @media screen and (min-width:700px){
