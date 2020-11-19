@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 /*@import url('https://basehold.it/24'); */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -6,13 +6,13 @@
    License: none (public domain)
 */
 /* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
 /* Base Styles | Meant to be used up to first media query before being edited*/
 /* Used 20px as base size https://www.modularscale.com/?20&px&1.25 with a major third ratio */
-html{
-  font-family: 'Literata', Georgia, 'Times New Roman', Times, Roman, serif;
+html {
+  font-family: Literata, Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 1.25em; /* 20 / 16 = 1.25 */
   line-height: 1.3em; /* 26 / 20 = 1.3*/
   background: #333333;
@@ -20,10 +20,10 @@ html{
 }
 
 @supports (display: grid) {
-  html{ padding: 1em 0; }
+  html { padding: 1em 0; }
 }
 
-h1{
+h1 {
   font-size: 1.95315em; /* 39.063 / 20 */
   line-height: 1.228784272em; /* 48 / 39.063 */
   text-align: center;
@@ -34,13 +34,13 @@ h2 {
   font-weight: 600;
   text-align: center;
 }
-h3{
+h3 {
   font-size: 1.25em; /* 25 / 20  */
   font-style: italic;
   text-align: center;
 }
-h4{
-  font-weight:600;
+h4 {
+  font-weight: 600;
   text-align: center;
 }
 h1,
@@ -49,34 +49,34 @@ h3,
 h4,
 p,
 nav,
-figcaption{
+figcaption {
   padding-bottom: 0.8em;
 }
-figcaption{
+figcaption {
   font-size: 0.9em; /* 18 / 20 */
   line-height: 1.222222222em; /* 22 / 18 */
   text-align: center;
 }
 
-a{
+a {
   color: #e6e6e6;
 }
-a:visited{
+a:visited {
   color: #2d8ceb;
 }
 
-ul.defaultlist{
+ul.defaultlist {
   list-style-type: disc;
   list-style-position: inside;
-  margin-bottom:1.2em; /* 24 / 20*/
+  margin-bottom: 1.2em; /* 24 / 20*/
 }
-li{
+li {
   margin: 0.2em; /* 4 / 20*/
 }
 
 /* Responsive Images */
 
-img{
+img {
   display: block;
   border: 0.15em solid #2d8ceb; /* 3 / 20 */
   box-sizing: border-box;
@@ -85,20 +85,20 @@ img{
 
 /* Layout */
 
-body{
+body {
   display: grid;
-  grid-template-columns: minmax(0.625em,1fr) minmax(5ch,80ch) minmax(0.625em,1fr)
+  grid-template-columns: minmax(0.625em,1fr) minmax(5ch,80ch) minmax(0.625em,1fr);
 }
 header,
 nav,
 main,
-footer{
-  grid-column: 2 / 3
+footer {
+  grid-column: 2 / 3;
 }
 
 /* Modular */
 
-.nav li{
+.nav li {
   padding-bottom: 0.3em; /* 6 / 20 */
 }
 .nav a {
@@ -113,72 +113,72 @@ footer{
 }
 
 /* State */
-@media screen and (min-width:14.375em){ /* 230 / 16 */
+@media screen and (min-width: 14.375em) { /* 230 / 16 */
 
-  figure.portrait{
+  figure.portrait {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 15em; /* 300 / 20*/
   }
-  figure.portraitlong{
+  figure.portraitlong {
     max-width: 10em; /* 200 / 20 */
-    float:left;
+    float: left;
     padding-right: 0.5em; /* 10 / 20 */
     padding-top: 0.3em; /* 6 / 20 */
   }
 }
 
-@media screen and (min-width:30em){ /* 480 / 16 */
+@media screen and (min-width: 30em) { /* 480 / 16 */
 
-  figure.portrait{
-    float:left;
+  figure.portrait {
+    float: left;
     padding-right: 0.5em; /* 10 / 20 */
     padding-top: 0.3em; /* 6 / 20 */
   }
-  figure.portraitlong{
-    float:right;
+  figure.portraitlong {
+    float: right;
     padding-left: 0.5em; /* 10 / 20 */
-    padding-right: 0em; /*0*/
+    padding-right: 0; /*0*/
   }
 
-  .nav{
+  .nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .nav li{
-    padding: 0em; /*0*/
+  .nav li {
+    padding: 0; /*0*/
     width: 30vw;
     margin: 0.2em; /* 4 / 20 */
     flex: 1 auto;
   }
-  .nav a{
-    padding:0.4em; /* 8 / 20*/
+  .nav a {
+    padding: 0.4em; /* 8 / 20*/
   }
-  .nav li:first-of-type{
-  margin-left: 0em;
+  .nav li:first-of-type {
+    margin-left: 0;
   }
   .nav li:last-of-type {
-  margin-right: 0em;
+    margin-right: 0;
   }
 }
 
-@media screen and (min-width:35em){ /* 700 / 20 */
+@media screen and (min-width: 35em) { /* 700 / 20 */
 
-  figure.landscape{
+  figure.landscape {
     max-width: 35em; /* 700 / 20 */
     margin-left: auto;
     margin-right: auto;
   }
 
   /* This helps fix an issue with wrapping on the Srecko page */
-  h3{
-    clear:both;
+  h3 {
+    clear: both;
   }
-  #yawn{
+  #yawn {
     float: right;
-    padding-right: 0em;
+    padding-right: 0;
     padding-left: 0.5em; /* 10 / 20 */
   }
 }
