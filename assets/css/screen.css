@@ -54,6 +54,12 @@ figcaption{
   padding-bottom: 24px;
 }
 
+figcaption{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
 /* Responsive Images */
 
 img{
