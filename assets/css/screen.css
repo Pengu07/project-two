@@ -117,7 +117,6 @@ footer{
     padding-right: 10px;
     padding-top: 6px;
   }
-
 }
 
 @media screen and (min-width:480px){
@@ -132,6 +131,7 @@ footer{
     float:right;
     padding-left: 10px;
     padding-right: 0px;
+  }
 }
 
 @media screen and (min-width:700px){
@@ -140,3 +140,15 @@ footer{
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* This helps fix an issue with wrapping on the Srecko page */
+  h3{
+    clear:both;
+  }
+
+  #yawn{
+    float: right;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+}
