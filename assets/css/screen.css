@@ -85,21 +85,24 @@ footer{
 
 /* Modular */
 
+/*
+*/
 .nav li{
   padding-bottom: 6px;
 }
 .nav a {
   display: block;
-  text-decoration: none;
   background: #2d8ceb;
   color: #e6e6e6;
   /*border:3px solid #2d8ceb; */
-  padding: 12px;
+  padding: 6px;
+  text-align: center;
 }
 
 .nav a:hover {
   background: #2d8ceb;
 }
+
 
 /* State */
 @media screen and (min-width:230px){
