@@ -73,6 +73,9 @@ ul.defaultlist {
 li {
   margin: 0.2em; /* 4 / 20*/
 }
+footer {
+  font-size: 0.8em; /* 16 / 20 */
+}
 
 /* Responsive Images */
 
