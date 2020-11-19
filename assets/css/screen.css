@@ -131,6 +131,7 @@ footer{
   figure.portraitlong{
     float:right;
     padding-left: 10px;
+    padding-right: 0px;
 }
 
 @media screen and (min-width:700px){
