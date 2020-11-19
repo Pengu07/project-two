@@ -66,6 +66,16 @@ a{
 a:visited{
   color: #2d8ceb;
 }
+
+ul.defaultlist{
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom:24px;
+}
+li{
+  margin: 4px;
+}
+
 /* Responsive Images */
 
 img{
