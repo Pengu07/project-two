@@ -43,7 +43,6 @@ h4{
   font-weight:600;
   text-align: center;
 }
-
 h1,
 h2,
 h3,
@@ -53,7 +52,6 @@ nav,
 figcaption{
   padding-bottom: 24px;
 }
-
 figcaption{
   font-size: 18px;
   line-height: 22px;
@@ -91,7 +89,6 @@ body{
   display: grid;
   grid-template-columns: minmax(0.625em,1fr) minmax(5ch,80ch) minmax(0.625em,1fr)
 }
-
 header,
 nav,
 main,
@@ -101,8 +98,6 @@ footer{
 
 /* Modular */
 
-/*
-*/
 .nav li{
   padding-bottom: 6px;
 }
@@ -114,11 +109,9 @@ footer{
   padding: 6px;
   text-align: center;
 }
-
 .nav a:hover {
   background: #2d8ceb;
 }
-
 
 /* State */
 @media screen and (min-width:230px){
@@ -129,7 +122,6 @@ footer{
     margin-right: auto;
     max-width: 300px;
   }
-
   figure.portraitlong{
     max-width: 200px;
     float:left;
@@ -145,7 +137,6 @@ footer{
     padding-right: 10px;
     padding-top: 6px;
   }
-
   figure.portraitlong{
     float:right;
     padding-left: 10px;
@@ -157,29 +148,25 @@ footer{
     flex-direction: row;
     justify-content: space-between;
   }
-
   .nav li{
     padding: 0px;
     width: 30vw;
     margin: 4px;
     flex: 1 auto;
   }
-
   .nav a{
     padding:8px;
   }
-
   .nav li:first-of-type{
   margin-left: 0;
   }
-
   .nav li:last-of-type {
   margin-right: 0;
   }
-
 }
 
 @media screen and (min-width:700px){
+
   figure.landscape{
     max-width: 700px;
     margin-left: auto;
@@ -190,7 +177,6 @@ footer{
   h3{
     clear:both;
   }
-
   #yawn{
     float: right;
     padding-right: 0px;
